@@ -1,13 +1,13 @@
 .Layout-topBar {
   background: rgb(255, 255, 255);
-  padding-top:20px;
+  padding-top:0px;
   border-bottom: 1px solid black;
   font-family: sans-serif;
   line-height: 50px;
   text-align: center;
 }
 
-.Layout-hamburger {
+.Layout-leftNav {
   font-size: 25px;
   left: 0;
   line-height: 50px;
@@ -17,24 +17,4 @@
 
 .Layout-content {
   height: 100%;
-}
-
-.Layout-nav {
-  background: #ccc;
-  border-bottom: rgba(100, 100, 100, 0.3);
-  height: 100%;
-  padding: 10px;
-}
-
-.Layout-navLink,
-.Layout-lastNavLink {
-  color: black;
-  display: block;
-  font-family: sans-serif;
-  padding: 10px 0;
-  text-decoration: none;
-}
-
-.Layout-navLink {
-  border-bottom: 1px solid rgba(20, 20, 20, 0.3);
 }

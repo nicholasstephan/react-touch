@@ -1,0 +1,19 @@
+.LeftNav {
+  background: #ccc;
+  border-bottom: rgba(100, 100, 100, 0.3);
+  height: 100%;
+  padding: 10px;
+}
+
+.LeftNav-link,
+.LeftNav-lastLink {
+  color: black;
+  display: block;
+  font-family: sans-serif;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.LeftNav-link {
+  border-bottom: 1px solid rgba(20, 20, 20, 0.3);
+}
