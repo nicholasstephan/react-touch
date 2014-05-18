@@ -26,7 +26,7 @@ var Layout = React.createClass({
     );
 
     var topContent = (
-      <Header className="Layout-topBar">React touch demos</Header>
+      <Header className="Layout-topBar">Touch Demo</Header>
     );
 
     var sideContent = (
