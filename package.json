@@ -19,7 +19,7 @@
     "ios-sim": "^1.9.0"
   },
   "scripts": {
-    "start": "webpack --debug src/main.js build/main.js"
+    "start": "webpack src/main.js www/js/main.js && cordova run ios"
   },
   "author": "Pete Hunt",
   "license": "Apache 2"
